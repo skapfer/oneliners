@@ -1,0 +1,2 @@
+#!/bin/bash
+ffmpeg -i "$1" -acodec copy -vn "$1.m4a"
